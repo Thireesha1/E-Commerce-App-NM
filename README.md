@@ -136,4 +136,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## 👥 Contact
 
 - **Developer**: [Thireesha](https://www.linkedin.com/in/thireesha-k-614b2224a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-- **Email**: your-thirisha0416@gmail.com
+- **Email**: thirisha0416@gmail.com
