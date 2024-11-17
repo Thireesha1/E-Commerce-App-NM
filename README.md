@@ -9,7 +9,7 @@ This project is a **Grocery Web App** developed using the **MERN stack** (MongoD
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Token)
-- **Styling**: CSS / TailwindCSS / Bootstrap (choose one based on what you used)
+- **Styling**: CSS / TailwindCSS / Bootstrap 
 - **API Testing**: Postman
 
 ## 🚀 Features
@@ -19,7 +19,7 @@ This project is a **Grocery Web App** developed using the **MERN stack** (MongoD
 - **Search & Filter**: Easily search for products and apply filters.
 - **Shopping Cart**: Add and manage products in a shopping cart.
 - **Order Management**: Place orders and view order history.
-- **Admin Panel**: Manage products, view user data, and track orders (if implemented).
+- **Admin Panel**: Manage products, view user data, and track orders .
 - **Responsive Design**: Fully responsive UI for a seamless experience across devices.
 
 ## 🗂️ Folder Structure
@@ -116,9 +116,7 @@ grocery-web-app/
 - **POST** `/api/orders` - Place a new order
 - **GET** `/api/orders/:userId` - Get user orders
 
-## 📸 Screenshots
 
-Include screenshots of your app here (e.g., homepage, product listing, shopping cart).
 
 ## 💡 Future Improvements
 
