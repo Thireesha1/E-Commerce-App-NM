@@ -1,139 +1,70 @@
+# Getting Started with Create React App
 
-# Grocery Web App 🛒
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a **Grocery Web App** developed using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). It offers a streamlined online shopping experience for users, allowing them to browse, add, and purchase grocery items with ease. The app also features a secure user authentication system and an intuitive user interface.
+## Available Scripts
 
-## 🛠️ Tech Stack
+In the project directory, you can run:
 
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT (JSON Web Token)
-- **Styling**: CSS / TailwindCSS / Bootstrap 
-- **API Testing**: Postman
+### `npm start`
 
-## 🚀 Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **User Authentication**: Secure login and signup with JWT.
-- **Product Listing**: Browse a variety of grocery products with details.
-- **Search & Filter**: Easily search for products and apply filters.
-- **Shopping Cart**: Add and manage products in a shopping cart.
-- **Order Management**: Place orders and view order history.
-- **Admin Panel**: Manage products, view user data, and track orders .
-- **Responsive Design**: Fully responsive UI for a seamless experience across devices.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🗂️ Folder Structure
+### `npm test`
 
-```
-grocery-web-app/
-├── client/                 # Frontend (React)
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── services/
-│       ├── utils/
-│       └── App.js
-├── server/                 # Backend (Node.js, Express.js)
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── server.js
-├── .env                    # Environment variables
-├── package.json
-└── README.md
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## ⚙️ Installation
+### `npm run build`
 
-### Prerequisites
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Node.js installed
-- MongoDB server running locally or on the cloud (e.g., MongoDB Atlas)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Setup
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/grocery-web-app.git
-   cd grocery-web-app
-   ```
+### `npm run eject`
 
-2. **Install dependencies**:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   - For the server:
-     ```bash
-     cd server
-     npm install
-     ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-   - For the client:
-     ```bash
-     cd ../client
-     npm install
-     ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-3. **Environment Variables**:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-   Create a `.env` file in the `server/` directory and add the following:
-   ```env
-   PORT=5000
-   MONGODB_URI=your-mongodb-uri
-   JWT_SECRET=your-jwt-secret
-   ```
+## Learn More
 
-4. **Start the application**:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-   - Backend (server):
-     ```bash
-     cd server
-     npm start
-     ```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-   - Frontend (client):
-     ```bash
-     cd ../client
-     npm start
-     ```
+### Code Splitting
 
-   The app will be running at [http://localhost:3000](http://localhost:3000).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## 🧪 API Endpoints
+### Analyzing the Bundle Size
 
-### User
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- **POST** `/api/auth/register` - Register a new user
-- **POST** `/api/auth/login` - User login
+### Making a Progressive Web App
 
-### Products
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- **GET** `/api/products` - Get all products
-- **POST** `/api/products` - Add a new product (Admin only)
+### Advanced Configuration
 
-### Orders
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-- **POST** `/api/orders` - Place a new order
-- **GET** `/api/orders/:userId` - Get user orders
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-## 💡 Future Improvements
-
-- Payment integration (e.g., Stripe)
-- User profile with address management
-- Real-time order tracking
-- Enhanced search and filter functionality
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any changes or suggestions.
-
-## 👥 Contact
-
-- **Developer**: [Thireesha](https://www.linkedin.com/in/thireesha-k-614b2224a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-- **Email**: thirisha0416@gmail.com
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
